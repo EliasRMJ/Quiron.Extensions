@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\quiron.extensions.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\quiron.extensions.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\listextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\listextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\quiron.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\quiron.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\httpresponsemessageextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\httpresponsemessageextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,26 +55,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Quiron.Extensions",
-              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
-              "RelativeDocumentMoniker": "Quiron.Extensions\\Quiron.Extensions.csproj",
-              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
-              "RelativeToolTip": "Quiron.Extensions\\Quiron.Extensions.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-01T12:45:29.933Z",
+              "Title": "ListExtension.cs",
+              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\ListExtension.cs",
+              "RelativeDocumentMoniker": "Quiron.Extensions\\ListExtension.cs",
+              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\ListExtension.cs",
+              "RelativeToolTip": "Quiron.Extensions\\ListExtension.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:03:04.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Quiron.Extensions",
-              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
-              "RelativeDocumentMoniker": "Quiron.Extensions\\Quiron.Extensions.csproj",
-              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
-              "RelativeToolTip": "Quiron.Extensions\\Quiron.Extensions.csproj",
+              "Title": "HttpResponseMessageExtension.cs",
+              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\HttpResponseMessageExtension.cs",
+              "RelativeDocumentMoniker": "Quiron.Extensions\\HttpResponseMessageExtension.cs",
+              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\HttpResponseMessageExtension.cs",
+              "RelativeToolTip": "Quiron.Extensions\\HttpResponseMessageExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-01T12:45:26.294Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:02:58.324Z",
               "EditorCaption": ""
             }
           ]

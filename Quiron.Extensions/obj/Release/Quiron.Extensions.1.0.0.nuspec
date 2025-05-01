@@ -25,7 +25,7 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\bin\Debug\net9.0\Quiron.Extensions.dll" target="lib\net9.0\Quiron.Extensions.dll" />
+    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\bin\Release\net9.0\Quiron.Extensions.dll" target="lib\net9.0\Quiron.Extensions.dll" />
     <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\quiron-package.ico" target="content\quiron-package.ico" />
     <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\quiron-package.ico" target="contentFiles\any\net9.0\quiron-package.ico" />
     <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\quiron-package.png" target="\quiron-package.png" />
