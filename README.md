@@ -27,7 +27,7 @@ If you find this project useful, please give it a star! It helps us grow and imp
 
 ### DateExtension
 ```csharp
-var otherDate = DateTime.Parse('2025-01-01');
+var otherDate = DateTime.Parse("2025-01-01");
 bool isToday = otherDate.EqualToday();
 bool isTodayOrMinus = otherDate.EqualTodayOrMinus();
 bool isTodayOrBigger = otherDate.EqualTodayOrBigger();
