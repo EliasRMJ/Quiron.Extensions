@@ -12,11 +12,11 @@
     <PackageIcon>quiron-package.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>quiron,extensions</PackageTags>
-    <PackageReleaseNotes>Create new package.</PackageReleaseNotes>
+    <PackageReleaseNotes>Add new method to verify 'IsNullOrZero' for 'IEnumerable'.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.1</AssemblyVersion>
+    <FileVersion>1.1.0.1</FileVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <ApplicationIcon>quiron-package.ico</ApplicationIcon>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>

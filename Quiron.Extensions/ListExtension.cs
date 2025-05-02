@@ -21,6 +21,11 @@
             return (collections is not null && collections.Count > 0);
         }
 
+        public static bool IsNotNull<T>(this IEnumerable<T> collections)
+        {
+            return (collections is not null && collections.Any());
+        }
+
         public static bool IsNullOrZero<T>(this ICollection<T> collections)
         {
             return (collections is null || collections.Count == 0);
@@ -31,7 +36,18 @@
             return (collections is null || collections.Count == 0);
         }
 
+        public static bool IsNullOrZero<T>(this IEnumerable<T> collections)
+        {
+            return (collections is null || !collections.Any());
+        }
+
         public static void Clean<T>(this ICollection<T> collections)
+        {
+            if (collections.IsNotNull())
+                collections.Clear();
+        }
+
+        public static void Clean<T>(this List<T> collections)
         {
             if (collections.IsNotNull())
                 collections.Clear();
@@ -39,13 +55,8 @@
 
         public static void Clean<T>(this IEnumerable<T> collections)
         {
-            collections?.ToList().Clear();
-        }
-
-        public static void Clean<T>(this List<T> collections)
-        {
-            if (collections.IsNotNull())
-                collections.Clear();
+            collections.ToList()
+                .Clear();
         }
     }
 }
