@@ -59,5 +59,29 @@ namespace Quiron.Extensions
 
             return Convert.ToBase64String(arrByte);
         }
+
+        public static string Initcap(this string text)
+        {
+            var newWord = new StringBuilder();
+            if (!string.IsNullOrWhiteSpace(text))
+            {
+                newWord.Append(text[..1].ToUpper());
+                for (var i = 1; i < text.Length; i++)
+                {
+                    if ((text.Substring(i, 1) == " ") || 
+                        (text.Substring(i, 1) == "-") && (i != text.Length - 1))
+                    {
+                        newWord.AppendFormat(" {0}", text.Substring(i + 1, 1).ToUpper());
+                        i++;
+                    }
+                    else
+                    {
+                        newWord.Append(text.Substring(i, 1).ToLower());
+                    }
+                }
+            }
+
+            return newWord.ToString();
+        }
     }
 }

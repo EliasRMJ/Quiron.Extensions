@@ -13,7 +13,7 @@
     <releaseNotes>Add new method to verify 'IsNullOrZero' for 'IEnumerable'.</releaseNotes>
     <copyright>MIT</copyright>
     <tags>quiron,extensions</tags>
-    <repository type="git" url="https://github.com/EliasRMJ/Quiron.Extensions" commit="43e01ffac6cfed40c1186300a67dd40247de90a9" />
+    <repository type="git" url="https://github.com/EliasRMJ/Quiron.Extensions" commit="34a46d67ba3b0800ee02cb56cdf8b5fd5f6fa743" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
