@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Quiron.Extensions</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <title>Quiron.Extensions</title>
     <authors>EliasRMJ</authors>
     <license type="expression">MIT</license>
@@ -10,14 +10,14 @@
     <icon>quiron-package.png</icon>
     <readme>README.md</readme>
     <description>Package that compiles several resources repeated many times in projects.</description>
-    <releaseNotes>Add new method to verify 'IsNullOrZero' for 'IEnumerable'.</releaseNotes>
+    <releaseNotes>Add new method to filters and orderBy 'PropertyFilterExtension' for 'OrderByExtension'.</releaseNotes>
     <copyright>MIT</copyright>
     <tags>quiron,extensions</tags>
     <repository type="git" url="https://github.com/EliasRMJ/Quiron.Extensions" commit="762ac381013d25f3b6ddbed29712aa8d4dfc121c" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
-        <dependency id="System.Drawing.Common" version="9.0.4" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="9.0.7" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <contentFiles>

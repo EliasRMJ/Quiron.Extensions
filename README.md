@@ -11,6 +11,7 @@ If you find this project useful, please give it a star! It helps us grow and imp
 - ✅ Quiron.Extensions
 - ✅ Newtonsoft.Json
 - ✅ System.Drawing
+- ✅ System.Reflection
 
 ## Extensions
 
@@ -22,6 +23,8 @@ If you find this project useful, please give it a star! It helps us grow and imp
 - ✅ ListExtension
 - ✅ StreamExtension
 - ✅ StringExtension
+- ✅ OrderByExtension
+- ✅ PropertyFilterExtension
 
 ## Some Basic Examples
 
@@ -52,6 +55,18 @@ Console.WhiteLine("false");
 var email2 = "test@quiron.com";
 bool valid = email2.IsValid();
 Console.WhiteLine("true");
+```
+
+### PropertyFilterExtension
+```csharp
+var listFilters = list.ToFilterString("id,name");
+```
+
+### OrderByExtension
+```csharp
+var list1 = list.OrderByMultipleKeys("id:asc,name:asc");
+
+var list2 = list.OrderByMultiple("id:asc,name:asc");
 ```
 
 Supports:

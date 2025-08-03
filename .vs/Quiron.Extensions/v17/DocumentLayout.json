@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\orderbyextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\orderbyextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\propertyfilterextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\propertyfilterextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\quiron.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\quiron.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +58,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StringExtension.cs",
-              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\StringExtension.cs",
-              "RelativeDocumentMoniker": "Quiron.Extensions\\StringExtension.cs",
-              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\StringExtension.cs",
-              "RelativeToolTip": "Quiron.Extensions\\StringExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Quiron.Extensions",
+              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
+              "RelativeDocumentMoniker": "Quiron.Extensions\\Quiron.Extensions.csproj",
+              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
+              "RelativeToolTip": "Quiron.Extensions\\Quiron.Extensions.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-03T11:21:46.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyFilterExtension.cs",
+              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\PropertyFilterExtension.cs",
+              "RelativeDocumentMoniker": "Quiron.Extensions\\PropertyFilterExtension.cs",
+              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\PropertyFilterExtension.cs",
+              "RelativeToolTip": "Quiron.Extensions\\PropertyFilterExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:46:23.392Z",
+              "WhenOpened": "2025-08-03T11:18:34.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderByExtension.cs",
+              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\OrderByExtension.cs",
+              "RelativeDocumentMoniker": "Quiron.Extensions\\OrderByExtension.cs",
+              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\OrderByExtension.cs",
+              "RelativeToolTip": "Quiron.Extensions\\OrderByExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T11:18:27.705Z",
               "EditorCaption": ""
             }
           ]

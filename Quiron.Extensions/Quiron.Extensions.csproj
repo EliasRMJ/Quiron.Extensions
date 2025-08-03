@@ -12,11 +12,11 @@
     <PackageIcon>quiron-package.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>quiron,extensions</PackageTags>
-    <PackageReleaseNotes>Add new method to verify 'IsNullOrZero' for 'IEnumerable'.</PackageReleaseNotes>
+    <PackageReleaseNotes>Add new method to filters and orderBy 'PropertyFilterExtension' for 'OrderByExtension'.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
-    <Version>1.1.0</Version>
-    <AssemblyVersion>1.1.0.1</AssemblyVersion>
-    <FileVersion>1.1.0.1</FileVersion>
+    <Version>1.2.0</Version>
+    <AssemblyVersion>1.2.0.1</AssemblyVersion>
+    <FileVersion>1.2.0.1</FileVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <ApplicationIcon>quiron-package.ico</ApplicationIcon>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -37,7 +37,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="System.Drawing.Common" Version="9.0.4" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.7" />
   </ItemGroup>
 
   <ItemGroup>
