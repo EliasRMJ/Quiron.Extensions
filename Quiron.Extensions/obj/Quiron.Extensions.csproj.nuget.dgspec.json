@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj": {
-      "version": "1.2.0",
+      "version": "1.3.8",
       "restore": {
         "projectUniqueName": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\Quiron.Extensions.csproj",
         "projectName": "Quiron.Extensions",
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

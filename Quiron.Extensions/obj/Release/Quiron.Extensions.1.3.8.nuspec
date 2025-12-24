@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Quiron.Extensions</id>
+    <version>1.3.8</version>
+    <title>Quiron.Extensions</title>
+    <authors>EliasRMJ</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>quiron-package.png</icon>
+    <readme>README.md</readme>
+    <description>Package that compiles several resources repeated many times in projects.</description>
+    <releaseNotes>An improvement was made to property filtering in aligned classes.</releaseNotes>
+    <copyright>MIT</copyright>
+    <tags>quiron,extensions</tags>
+    <repository type="git" url="https://github.com/EliasRMJ/Quiron.Extensions" commit="3cb22a3de9f7038139e0f1601c1b774cbbd1ae11" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="9.0.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net9.0/quiron-package.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\bin\Release\net9.0\Quiron.Extensions.dll" target="lib\net9.0\Quiron.Extensions.dll" />
+    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\quiron-package.ico" target="content\quiron-package.ico" />
+    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\quiron-package.ico" target="contentFiles\any\net9.0\quiron-package.ico" />
+    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\Quiron.Extensions\quiron-package.png" target="\quiron-package.png" />
+    <file src="C:\Meus Projetos GUI\SGS V_W\Quiron.Extensions\README.md" target="\README.md" />
+  </files>
+</package>
