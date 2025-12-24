@@ -15,9 +15,9 @@ namespace Quiron.Extensions
             return list.Select(obj =>
             {
                 var expando = new ExpandoObject() as IDictionary<string, object>;
-                FillObject(expando, obj!, fieldTree);
+                FillObject(expando!, obj!, fieldTree);
 
-                return expando;
+                return expando!;
             });
         }
 
@@ -42,6 +42,7 @@ namespace Quiron.Extensions
                 foreach (var part in parts)
                 {
                     var key = part.ToLower();
+
                     if (!current.ContainsKey(key))
                         current[key] = new Dictionary<string, object?>();
 
@@ -52,7 +53,7 @@ namespace Quiron.Extensions
             return tree;
         }
 
-        private static void FillObject(IDictionary<string, object> target, object source
+        private static void FillObject(IDictionary<string, object> target,object source
             , Dictionary<string, object?> fieldTree)
         {
             var props = source.GetType().GetProperties();
@@ -69,22 +70,42 @@ namespace Quiron.Extensions
                     continue;
 
                 var camelCaseName = char.ToLower(prop.Name[0]) + prop.Name[1..];
-                var subTree = fieldTree.TryGetValue(propKey, out object? value1)
-                    ? value1 as Dictionary<string, object?>
-                    : null;
+                var subTree = fieldTree[propKey] as Dictionary<string, object?>;
 
-                if (subTree is null || subTree.Count.Equals(0) || IsSimpleType(prop.PropertyType))
+                if (IsSimpleType(prop.PropertyType))
                 {
                     target[camelCaseName] = value;
+                    continue;
                 }
-                else
+
+                if (IsEnumerable(prop.PropertyType))
                 {
-                    var nested = new ExpandoObject() as IDictionary<string, object>;
-                    
-                    FillObject(nested!, value, subTree);
-                    target[camelCaseName] = nested!;
+                    var list = new List<object>();
+
+                    foreach (var item in (System.Collections.IEnumerable)value)
+                    {
+                        var nested = new ExpandoObject() as IDictionary<string, object>;
+                        FillObject(nested!, item!, subTree ?? new());
+                        list.Add(nested!);
+                    }
+
+                    target[camelCaseName] = list;
+                    continue;
                 }
+
+                var nestedObject = new ExpandoObject() as IDictionary<string, object>;
+            
+                FillObject(nestedObject!, value, subTree ?? []);
+                target[camelCaseName] = nestedObject!;
             }
+        }
+
+        private static bool IsEnumerable(Type type)
+        {
+            if (type == typeof(string))
+                return false;
+
+            return typeof(System.Collections.IEnumerable).IsAssignableFrom(type);
         }
 
         private static bool IsSimpleType(Type type)
@@ -98,6 +119,7 @@ namespace Quiron.Extensions
                 || type == typeof(string)
                 || type == typeof(DateTime)
                 || type == typeof(DateOnly)
+                || type == typeof(TimeOnly)
                 || type == typeof(decimal)
                 || type == typeof(double)
                 || type == typeof(Guid);

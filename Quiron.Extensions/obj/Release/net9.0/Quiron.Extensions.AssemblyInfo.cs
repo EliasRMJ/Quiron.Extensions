@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("MIT")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Package that compiles several resources repeated many times in projects.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.8.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3.8+3cb22a3de9f7038139e0f1601c1b774cbbd1ae11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3.8+ad72242f0a0c475b1785e20837bdf5973ea16856")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quiron.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quiron.Extensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.3.8.1")]

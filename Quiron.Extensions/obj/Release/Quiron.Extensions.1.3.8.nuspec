@@ -13,7 +13,7 @@
     <releaseNotes>An improvement was made to property filtering in aligned classes.</releaseNotes>
     <copyright>MIT</copyright>
     <tags>quiron,extensions</tags>
-    <repository type="git" url="https://github.com/EliasRMJ/Quiron.Extensions" commit="3cb22a3de9f7038139e0f1601c1b774cbbd1ae11" />
+    <repository type="git" url="https://github.com/EliasRMJ/Quiron.Extensions" commit="ad72242f0a0c475b1785e20837bdf5973ea16856" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
