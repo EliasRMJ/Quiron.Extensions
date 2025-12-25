@@ -53,16 +53,17 @@ namespace Quiron.Extensions
             return tree;
         }
 
-        private static void FillObject(IDictionary<string, object> target,object source
+        private static void FillObject(IDictionary<string, object> target, object source
             , Dictionary<string, object?> fieldTree)
         {
             var props = source.GetType().GetProperties();
+            bool allowAll = fieldTree.Count.Equals(0);
 
             foreach (var prop in props)
             {
                 var propKey = prop.Name.ToLower();
 
-                if (fieldTree.Count > 0 && !fieldTree.ContainsKey(propKey))
+                if (!allowAll && !fieldTree.ContainsKey(propKey))
                     continue;
 
                 var value = prop.GetValue(source);
@@ -70,7 +71,9 @@ namespace Quiron.Extensions
                     continue;
 
                 var camelCaseName = char.ToLower(prop.Name[0]) + prop.Name[1..];
-                var subTree = fieldTree[propKey] as Dictionary<string, object?>;
+                var subTree = allowAll
+                    ? []
+                    : fieldTree[propKey] as Dictionary<string, object?> ?? [];
 
                 if (IsSimpleType(prop.PropertyType))
                 {
@@ -84,8 +87,10 @@ namespace Quiron.Extensions
 
                     foreach (var item in (System.Collections.IEnumerable)value)
                     {
+                        if (item is null) continue;
+
                         var nested = new ExpandoObject() as IDictionary<string, object>;
-                        FillObject(nested!, item!, subTree ?? new());
+                        FillObject(nested!, item, subTree);
                         list.Add(nested!);
                     }
 
@@ -94,9 +99,9 @@ namespace Quiron.Extensions
                 }
 
                 var nestedObject = new ExpandoObject() as IDictionary<string, object>;
-            
-                FillObject(nestedObject!, value, subTree ?? []);
-                target[camelCaseName] = nestedObject!;
+                
+                FillObject(nestedObject!, value, subTree);
+                target[camelCaseName] = nestedObject;
             }
         }
 
