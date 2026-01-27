@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\propertyfilterextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\propertyfilterextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|c:\\meus projetos gui\\sgs v_w\\quiron.extensions\\quiron.extensions\\enumextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F737A2A7-F687-42C5-820A-D30365D85B06}|Quiron.Extensions\\Quiron.Extensions.csproj|solutionrelative:quiron.extensions\\enumextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,16 +53,24 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PropertyFilterExtension.cs",
-              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\PropertyFilterExtension.cs",
-              "RelativeDocumentMoniker": "Quiron.Extensions\\PropertyFilterExtension.cs",
-              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\PropertyFilterExtension.cs",
-              "RelativeToolTip": "Quiron.Extensions\\PropertyFilterExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAA0AAAAAAAAAA==",
+              "Title": "EnumExtension.cs",
+              "DocumentMoniker": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\EnumExtension.cs",
+              "RelativeDocumentMoniker": "Quiron.Extensions\\EnumExtension.cs",
+              "ToolTip": "C:\\Meus Projetos GUI\\SGS V_W\\Quiron.Extensions\\Quiron.Extensions\\EnumExtension.cs",
+              "RelativeToolTip": "Quiron.Extensions\\EnumExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T11:18:34.077Z",
+              "WhenOpened": "2026-01-27T16:34:17.808Z",
               "EditorCaption": ""
             }
           ]
