@@ -25,7 +25,7 @@ namespace Quiron.Extensions
                     var atributos = info.GetCustomAttributes(typeof(DescriptionEnumAttribute), false) as DescriptionEnumAttribute[];
                     var name = atributos!.Length > 0 ? atributos[0].Description : null;
 
-                    if (culture != null)
+                    if (culture != null && !string.IsNullOrWhiteSpace(culture.Name))
                     {
                         if (culture.Name == "pt" || culture.Name == "pt-BR")
                             name = atributos[0].Pt;

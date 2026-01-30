@@ -34,7 +34,9 @@ namespace Quiron.Extensions
             if (string.IsNullOrWhiteSpace(fields))
                 return tree;
 
-            foreach (var field in fields.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+            var fieldList = fields.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+
+            foreach (var field in fieldList)
             {
                 var parts = field.Split('.');
                 var current = tree;
@@ -61,6 +63,10 @@ namespace Quiron.Extensions
 
             foreach (var prop in props)
             {
+                if (Attribute.IsDefined(prop!, typeof(System.Text.Json.Serialization.JsonIgnoreAttribute)) || 
+                    Attribute.IsDefined(prop!, typeof(Newtonsoft.Json.JsonIgnoreAttribute)))
+                    continue;
+
                 var propKey = prop.Name.ToLower();
 
                 if (!allowAll && !fieldTree.ContainsKey(propKey))
@@ -71,9 +77,7 @@ namespace Quiron.Extensions
                     continue;
 
                 var camelCaseName = char.ToLower(prop.Name[0]) + prop.Name[1..];
-                var subTree = allowAll
-                    ? []
-                    : fieldTree[propKey] as Dictionary<string, object?> ?? [];
+                var subTree = allowAll ? [] : fieldTree[propKey] as Dictionary<string, object?> ?? [];
 
                 if (IsSimpleType(prop.PropertyType))
                 {
